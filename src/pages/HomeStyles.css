@@ -1,0 +1,13 @@
+.foto{
+    max-width: 300px;
+  border: 2px solid rgb(84, 161, 238);
+  margin-right: 10px;
+  margin-left: 130px;
+  margin-top: 30px;
+  display: flex;
+  row-gap: 5px;
+  background-image: url("https://i.pinimg.com/originals/e0/27/71/e02771bd796c91d104000a73ad8fe79a.gif%22");
+  border-radius: 15px;
+  background-size: 100%;
+
+}

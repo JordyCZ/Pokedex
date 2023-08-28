@@ -1,0 +1,33 @@
+.prueba {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#img {
+  width: 200px;
+}
+
+.navbar {
+  background-color: red;
+  padding: 20px;
+}
+
+.contenedorIMG {
+  
+  margin: 10px;
+  max-width: 300px;
+  border: 2px solid rgb(84, 161, 238);
+  margin-right: 10px;
+  margin-left: 130px;
+  margin-top: 30px;
+  display: flex;
+  row-gap: 5px;
+background-color: antiquewhite;
+  border-radius: 15px;
+  background-size: 100%;
+}
+
+.foto {
+  max-width: 200px;
+  
+}
