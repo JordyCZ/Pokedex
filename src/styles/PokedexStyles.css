@@ -1,0 +1,33 @@
+.foto2 {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #0e0d0d;
+  background-image: url("https://usagif.com/wp-content/uploads/2021/4fh5wi/animated-wallpaper-240x320px-acegif-11.gif");
+}
+.pokemon-container2 {
+  overflow: scroll;
+  height: 1000px;
+  width: 100%;
+
+  background-image: url("https://w0.peakpx.com/wallpaper/878/393/HD-wallpaper-pikachu-pokemon-ash.jpg");
+}
+.carta {
+  width: 200px;
+  background-color: #0e0d0d;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 60px;
+  display: inline-block;
+  margin: 10px;
+  background-image: url("");
+}
+.name {
+  font-size: 18px;
+  margin: 5px 0;
+  
+}
+.foto-pi {
+  height: 150px;
+  width: 130%;
+}

@@ -1,0 +1,71 @@
+
+
+#img {
+  width: 200px;
+}
+.navbar {
+  padding: 20px;
+  background-color: black;
+}
+
+.nav {
+  
+  background-color: black;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2023/03/Pokemon-4k-Wallpaper-Download-For-Pc.jpg");
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+ul > li {
+  margin: 5px;
+  list-style: none;
+}
+.foto {
+  max-width: 300px;
+  border: 2px solid rgb(84, 161, 238);
+  margin-right: 10px;
+  margin-left: 130px;
+  margin-top: 30px;
+  display: flex;
+  row-gap: 5px;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXJSPS3IXPvqClzB1a5UBj3c-5YdmpOsgoRSwJjWNyuWJYsdAM3ptWO8vGc6Vj-l16oTs3aJym9WMGp8bbprNs1WphdZqDnEgvM4QIrSCdBuzmzUiyO0uBE3V-Pw36bqxotcuQH6Hiczj6Q6iIJMtsDixGhZvVyElYcQ9h62hi_5hdl0fA7-_bbwz5uw/s500/Gif%20de%20octaedros.gif");
+  border-radius: 15px;
+  background-size: 100%;
+}
+.name-pokemon {
+  font-size: 100px;
+}
+
+p {
+  margin-left: 200px;
+  font-size: 30px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "nombres";
+  text-transform: uppercase;
+}
+
+
+
+
+h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: rgb(251, 251, 251);
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-family: "nombres2";
+}
+
+.pokemon-container {
+  display: flex;
+  row-gap: 5px;
+}
+img {
+  width: 700px;
+}
+
+

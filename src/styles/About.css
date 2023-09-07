@@ -1,0 +1,15 @@
+.prueba {
+  color: white;
+}
+.main {
+  background-repeat: no-repeat;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/10/251/792/team-rocket-pokemon-jessie-pokemon-james-pokemon-wallpaper-preview.jpg") !important;
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* h1{
+    margin: 0%;
+} */

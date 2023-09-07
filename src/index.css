@@ -5,7 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://png.pngtree.com/background/20230525/original/pngtree-wallpaper-blue-hexagons-backgrounds-vector-art-3d-picture-image_2726339.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
