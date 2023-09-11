@@ -4,12 +4,11 @@ import "../styles/HomeStyles.css";
 import "../styles/style.css";
 import "../styles/PokedexStyles.css";
 import "../styles/About.css";
-
-
+import { Link } from "react-router-dom";
 
 function Home() {
   // randomPokemons almacenar los Pokemon
-  
+
   const [randomPokemons, setRandomPokemons] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -38,7 +37,6 @@ function Home() {
       setIsLoading(true);
     };
     fetchRandomPokemon();
-    
   }, []);
   return (
     <header>
@@ -57,7 +55,6 @@ function Home() {
                 />
                 <p>{pokemon.name}</p>
               </div>
-              
             ))}
           </div>
         </>
@@ -257,5 +254,3 @@ function Home() {
 }
 
 export default Home;
-
-

@@ -28,7 +28,7 @@ export async function getPokemonList (url) {
     return result;
   }
 
-  async function getPokemonDetailByUrl(url) {
+  export async function getPokemonDetailByUrl(url) {
     try {
         // obtener el detalle de cada pokemon
         const response = await fetch(url);
@@ -38,6 +38,7 @@ export async function getPokemonList (url) {
             id,
             name:data.name,
             image:data.sprites.other["official-artwork"]["front_default"],
+            type: data.types.map((item) => item.type.name),
         }
     } catch (error) {
       console.error (" Error capturando el detalle", error);

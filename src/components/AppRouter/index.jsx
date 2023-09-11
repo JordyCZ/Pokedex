@@ -5,6 +5,7 @@ import About from "../../pages/About";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "../../pages/Navbar";
 import Pokedex from "../../pages/Pokedex";
+import PagePokemons from "../../pages/Pagepokemons";
 
 const AppRouter = () => {
   return (
@@ -15,7 +16,7 @@ const AppRouter = () => {
         <Route path="/" element={<Home />} />
         <Route path="About" element={<About />} />
         <Route path="pokedex" element={<Pokedex />} />
-        
+        <Route path="PageEvolutions/:id" element={<PagePokemons />} />
       </Routes>
     </div>
   );

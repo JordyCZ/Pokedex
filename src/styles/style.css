@@ -1,5 +1,3 @@
-
-
 #img {
   width: 200px;
 }
@@ -9,7 +7,6 @@
 }
 
 .nav {
-  
   background-color: black;
   background-image: url("https://wallpaperforu.com/wp-content/uploads/2023/03/Pokemon-4k-Wallpaper-Download-For-Pc.jpg");
 }
@@ -39,16 +36,13 @@ ul > li {
 }
 
 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 200px;
   font-size: 30px;
   margin-top: 10px;
-  color: rgb(255, 255, 255);
-  font-family: "nombres";
+  color: rgb(251, 227, 8);
   text-transform: uppercase;
 }
-
-
-
 
 h1 {
   font-size: 50px;
@@ -67,5 +61,3 @@ h1 {
 img {
   width: 700px;
 }
-
-

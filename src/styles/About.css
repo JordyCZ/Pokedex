@@ -3,11 +3,21 @@
 }
 .main {
   background-repeat: no-repeat;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/10/251/792/team-rocket-pokemon-jessie-pokemon-james-pokemon-wallpaper-preview.jpg") !important;
+  background-image: url("https://png.pngtree.com/background/20230612/original/pngtree-beautiful-cartoon-forest-scene-animated-wallpaper-hd-picture-image_3179942.jpg") !important;
   height: 800px;
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.colorpika{
+  color: white;
+  font-size: x-large;
+}
+
+.tama{
+  width: 50% ;
+  height: 50%;
 }
 
 /* h1{
